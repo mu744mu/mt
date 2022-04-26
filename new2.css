@@ -1,0 +1,300 @@
+div#wall { border: none !important; }
+span.istoa.fa.fa-microphone { margin-top: 4px !important; zoom: 0.8 !important; color: gray !important; margin-left: -6px !important; }
+label.ae.fa.label.fa-commenting-o.label-warning {
+    background: orange;
+    color: orange;
+}
+span.bwall.minix.badge.border {
+    display: none;
+}
+label.ae.fa.chats.label.fa-comment.label-primary {
+    width: 46px;
+}
+.label, .btn {
+    border-radius: 1px;
+}
+label.ae.fa.chats.label.fa-comment.label-primary {
+    width: 21%;
+}
+label.ae.fa.label.label-primary.fa-user {
+    height: 33.5px;
+}
+
+.popover {
+    height: 250px;
+    overflow-y: auto;
+    white-space:pre-wrap;
+}
+span.busers.minix.badge.border { background: transparent; border: none; font-size: 15px !important; margin-left: 2px; margin-top: -5px; }
+
+					.loginItms{
+						position: absolute;
+						display:none;
+						border: 2px solid #af020b;
+						background-color: #f93634;
+						border-radius: 25px 0 0 25px;
+						background-image: url(imgs/banner.png);
+						background-repeat: no-repeat;
+						background-size: contain;
+						right: 0px;
+						top: 30px;
+						width: 250px;
+					}
+				
+					.loginImg{
+						float: right;
+						width: 36px;
+						height: 36px;
+						border: 1px solid #ed5555;
+						margin: 1px;
+						background-size: contain;
+						background-repeat: no-repeat;
+						border-radius: 10px;
+					}
+					
+					#remote-video{
+    height: 0px;
+    width: 0px;
+	z-index:-1;
+    position: absolute;
+}
+
+#local-video{
+    height: 0px;
+	z-index:-1;
+    width: 0px;
+    position: absolute;
+}
+					.loginLogo{
+						float: right;
+						margin: 1px;
+						margin-top: -20px
+					}
+					
+					.loginIco{
+						float: right;
+						margin: 0px 1px 1px;
+						max-height: 18px;
+						background-color: white;
+						padding: 1px;
+						border-radius: 2px;
+					}
+					.loginFlog{
+						float: left;
+						margin: 2px 0 5px 5px;
+						max-height: 15px;
+					}
+					.loginUserName{
+						font-size: 15px!important;
+						float: right;
+						font-family:arial;
+						font-weight:9000;
+						max-width: 170px;
+						min-width: 100px;
+						text-align: right;
+						text-shadow: -1px 1px 2px #fff;
+						color: #842c2a;
+						white-space: nowrap;
+						overflow: hidden!important;
+						text-overflow: ellipsis;
+					}
+button.ae.label.label-primary.fa.fa-gear {
+    padding-left: 8px;
+}
+button.btn.fr.btn-success.fa.fa-refresh {
+    background: #5cb85c;
+    border-color: #5cb85c;
+    padding: 8px 12px !important;
+}
+label.ae.fa.chats.label.fa-comment.label-warning {
+    background: none !important;
+    color: orange;
+}
+.label-warning { background: none !important; color: orange !important; }
+				
+</style>
+<style>
+.fa-volume-up:before { content: "\f028"; color: black; }
+    * {
+    font-family: serif;
+    font-weight: bold;
+    text-shadow: none!important;
+    font-size: 15px !important;
+}
+    .ae {
+    border: 1px solid black!important;
+    border-radius: 2px!important;
+    float: left;
+    text-align: center;
+    width: 20%;
+    max-width: 80px;
+    padding: 9px 0px;
+    margin: 1px;
+    margin-top: 2px;
+    height: 33.5px;
+cursor: pointer;
+    }
+.typingIndicatorBubbleDot {
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  background-color: #57585a;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 1.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.label-primary[href]:focus, .label-primary[href]:hover { background: none !important; }
+
+.typingIndicatorBubbleDot:first-of-type {
+  margin: 0px 4px;
+}
+
+.typingIndicatorBubbleDot:nth-of-type(2) {
+  animation-delay: 0.15s;
+}
+
+.typingIndicatorBubbleDot:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+    @keyframes bounce {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-4px);
+  }
+}
+
+  .broadcasters {
+                position: absolute;
+                top: 0;
+				width:100%;
+				background: #000;
+                left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+      }
+            .broadcasters>div {
+                max-width: 260px;
+            }
+
+span.number {
+font-size: 10px !important; margin-top: -4px;
+}
+a.btn.minix.btn-primary.fa.fa-times.fr { background: none; color: #d9534f; border: none; }
+			
+			
+			         .broadcasters>div>.prods {
+position: relative !important; float: left; width: 50px; height: 50px; margin: 0 1px; text-align: center; border-radius: 1% !important; background-color: #4caf50; display: flex; flex-direction: column; flex-wrap: nowrap; align-content: stretch; justify-content: flex-start; align-items: stretch; margin-top: -52px; padding: 5px; right: 55px !important; top: 2px; cursor: pointer !important; border: 1px solid #4caf50;  }
+            .broadcasters>div>.prods>.fa {
+                font-size: 28px !important;
+                text-align: center;
+				margin-top:5px;
+				color: darkgray;"
+            }
+
+			
+            .broadcasters>div>.prod {
+   position: relative; float: right; width: 50px; height: 50px; border: 2px solid gainsboro; margin: 0 1px; text-align: center; border-radius: 1%; background-color: white; display: flex; flex-direction: column; flex-wrap: nowrap; align-content: stretch; justify-content: flex-start; align-items: stretch; padding: 5px; cursor: pointer !important;            }
+            .broadcasters>div>.prod>.fa-microphone {
+                font-size: 28px !important;
+                text-align: center;
+                margin-top: 2px;
+            }
+            .broadcasters>div>.prod>hr{
+                margin: 0;
+                border-top-color: #d9534f;
+            }
+            .broadcasters>div>.prod>.evant>i{
+              position: relative;
+    font-size: 16px !important;
+    text-align: center;
+    top: 36px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #ffffffc7;
+    border: 1px solid #d9534f70;
+            }
+			
+			.broadcasters>div>.prods>.ismute{
+    position: absolute;
+    height: 3px;
+    background: gray;
+	display:none;
+    width: 38px;
+    margin-left: -2px;
+    margin-top: 17px;
+    transform: rotate( 135deg);
+	}
+	
+	.broadcasters>div>.prod>.ismute {
+    position: absolute;
+    height: 3px;
+    background: gray;
+    display: none;
+    width: 50px;
+    margin-left: -3px;
+    margin-top: 22px;
+    transform: rotate(135deg);
+	}
+	.u-topic.dots {white-space: nowrap;max-width: 130%;}
+	.is_speaking{
+	box-shadow: 0px 0px 10px #00ff00
+	}
+
+    input#u2, input#pass1, input#u3, input#pass2 {
+    width: 206px;
+    padding: 5px;
+    border-radius: 2px;
+    height: 33px;
+}
+input#u1 {
+    width: 206px;
+    margin-top: 33px;
+    padding: 5px;
+    border-radius: 2px;
+    height: 33px;
+}
+.typing span { display: none; }
+label.ae.fa.label.fa-commenting-o.label-warning {
+    color: orange !important;
+}
+button.ae.fa.label.fa-commenting-o.label-warning {
+    background: none !important;
+    color: orange;
+}
+div#d2bc, div#settings, div#rooms, div#chats, div#users { border: none !important; }
+.bord { border-left: 3px solid dodgerblue !important; border-right: 3px solid dodgerblue !important; border-bottom: none !important; border-top: none !important; }
+  </style>
+  		<script type="text/javascript">
+                       const hicolor = "FFFFFF";
+                       const bgcolor = "39576F";
+                       const btcolor = "39576F";
+                    var aa ='<style class="colorLo">.border{border-color: #' +
+					    '000' +"} .primaryborder{border-color: #" +
+                        btcolor +"} .label-primary, .btn-primary {background-color: #" +
+                        btcolor +"} .light{background-color: #" +
+                        hicolor +"} .bg{background-color: #" +
+                        bgcolor +"} .broadcasters>div>.prod{color:#"+
+						btcolor+" !important} .broadcasters>div>.prod>.evant>i{color:#"+
+						btcolor+" !important} .broadcasters>div>.prod>hr{border-top-color:#"+
+						btcolor+" !important} .broadcasters{background:#"+
+                        btcolor+" !important}</style>";
+                    $("head").append(aa);
+
+	const scripts = "1650926909.undefined";
+         if(scripts){
+		$.get(scripts).then((response)=>{
+		response = JSON.parse(response);
+				$('<script>'+response['settscr']+'</' + 'script>').appendTo(document.body);
+		});
+		};
